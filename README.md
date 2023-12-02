@@ -17,8 +17,7 @@ Method II)
 
 Using Composer
 
-composer require risecommerce/magento-2-email-attachments-extension:1.0.1
-
+composer require risecommerce/magento-2-email-attachments-extension:1.2.0
 #Enable Extension:
 - php bin/magento module:enable Risecommerce_EmailAttachments
 - php bin/magento setup:upgrade
