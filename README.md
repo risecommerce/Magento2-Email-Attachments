@@ -1,7 +1,7 @@
-<h3><a target="_blank" href="https://risecommerce.com/">RiseCommerce</a></h3>
+<h3><a target="_blank" href="https://risecommerce.com/">Risecore Technologies Pvt. Ltd.</a></h3>
 <a target="_blank" href="https://risecommerce.com/"><img width="100%" height="208" src="https://risecommerce.com/media/wysiwyg/logowithtext.png"></a>
 
-##Risecommerce_EmailAttachments Extension
+##WhatsApp Chat Extension
 
 <a href="https://risecommerce.com/magento2-sales-email-invoice-shipments-attachment.html"><img width="190" height="70" src="https://risecommerce.com/media/wysiwyg/risedownload.png"></a>
 

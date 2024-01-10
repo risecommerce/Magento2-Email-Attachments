@@ -25,11 +25,9 @@ use Magento\Sales\Model\Order\Shipment;
 use Magento\Store\Model\Store;
 use Risecommerce\EmailAttachments\Helper\Data;
 use Zend\Mail\Message;
-use Zend\Mime\Mime;
 use Zend\Mime\Part;
+use Laminas\Mime\Mime;
 use Zend_Mail;
-use Zend_Mime;
-use Zend_Mime_Decode;
 use Zend_Pdf;
 use Zend_Pdf_Exception;
 
@@ -201,8 +199,8 @@ class MailEvent
         if ($this->dataHelper->versionCompare('2.2.9')) {
             $attachment = new Part($pdf->render());
             $attachment->type = 'application/pdf';
-            $attachment->encoding = Zend_Mime::ENCODING_BASE64;
-            $attachment->disposition = Zend_Mime::DISPOSITION_ATTACHMENT;
+            $attachment->encoding =  \Laminas\Mime\Mime::ENCODING_BASE64;
+            $attachment->disposition =  \Laminas\Mime\Mime::DISPOSITION_ATTACHMENT;
             $attachment->filename = $emailType . $obj->getIncrementId() . '.pdf';
 
             $this->parts[] = $attachment;
@@ -213,8 +211,8 @@ class MailEvent
         $message->createAttachment(
             $pdf->render(),
             'application/pdf',
-            Zend_Mime::DISPOSITION_ATTACHMENT,
-            Zend_Mime::ENCODING_BASE64,
+            \Laminas\Mime\Mime::DISPOSITION_ATTACHMENT,
+            \Laminas\Mime\Mime::ENCODING_BASE64,
             $emailType . $obj->getIncrementId() . '.pdf'
         );
     }
@@ -230,8 +228,8 @@ class MailEvent
         if ($this->dataHelper->versionCompare('2.2.9')) {
             $attachment = new Part($content);
             $attachment->type = $mimeType;
-            $attachment->encoding = Zend_Mime::ENCODING_BASE64;
-            $attachment->disposition = Zend_Mime::DISPOSITION_ATTACHMENT;
+            $attachment->encoding =  \Laminas\Mime\Mime::ENCODING_BASE64;
+            $attachment->disposition =  \Laminas\Mime\Mime::DISPOSITION_ATTACHMENT;
             $attachment->filename = __('terms_and_conditions') . '.' . $ext;
 
             $this->parts[] = $attachment;
@@ -242,8 +240,8 @@ class MailEvent
         $message->createAttachment(
             $content,
             $mimeType,
-            Zend_Mime::DISPOSITION_ATTACHMENT,
-            Zend_Mime::ENCODING_BASE64,
+            \Laminas\Mime\Mime::DISPOSITION_ATTACHMENT,
+            \Laminas\Mime\Mime::ENCODING_BASE64,
             __('terms_and_conditions') . '.' . $ext
         );
     }
@@ -255,9 +253,8 @@ class MailEvent
     {
         $body = Message::fromString($message->getRawMessage())->getBody();
         if ($this->dataHelper->versionCompare('2.3.3')) {
-            $body = Zend_Mime_Decode::decodeQuotedPrintable($body);
+             $body = quoted_printable_decode($body);
         }
-
         $part = new Part($body);
         $part->setCharset('utf-8');
         $part->setEncoding(Mime::ENCODING_BASE64);
@@ -267,7 +264,6 @@ class MailEvent
         }
         $part->setType(Mime::TYPE_HTML);
         array_unshift($this->parts, $part);
-
         $bodyPart = new \Zend\Mime\Message();
         $bodyPart->setParts($this->parts);
         $message->setBody($bodyPart);
