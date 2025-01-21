@@ -8,6 +8,11 @@
 
 Risecommerce_EmailAttachments provides seamless file sharing within emails, streamlining communication with secure and efficient attachment handling for enhanced productivity and collaboration. Elevate your email experience with easy access to important documents, fostering a smoother workflow for your business.
 
+For more details about this extension, visit the [Risecommerce All Product Reviews page](https://risecommerce.com/store/magento2-all-product-reviews-as-testomonials.html).
+
+If you're looking to enhance your Magento store further, consider hiring a [dedicated Magento developer](https://risecommerce.com/hire-dedicated-magento-developer.html).
+
+For support or inquiries, please visit our [contact page](https://risecommerce.com/contact).
  <a target="_blank" href="https://demo.risecommerce.com/"> <img width="190" height="70" src="https://risecommerce.com/media/wysiwyg/frontend-demo.png"> </a>
  <a target="_blank" href="https://demo.risecommerce.com/admindemo"> <img width="190" height="70" src="https://risecommerce.com/media/wysiwyg/Backend-Demo.png"> </a>
 
