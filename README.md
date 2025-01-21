@@ -1,14 +1,14 @@
 <h3><a target="_blank" href="https://risecommerce.com/">Risecore Technologies Pvt. Ltd.</a></h3>
 <a target="_blank" href="https://risecommerce.com/"><img width="100%" height="208" src="https://risecommerce.com/media/wysiwyg/logowithtext.png"></a>
 
-##WhatsApp Chat Extension
+# WhatsApp Chat Extension
 
 <a href="https://risecommerce.com/magento2-sales-email-invoice-shipments-attachment.html"><img width="190" height="70" src="https://risecommerce.com/media/wysiwyg/risedownload.png"></a>
 
 
-Risecommerce_EmailAttachments provides seamless file sharing within emails, streamlining communication with secure and efficient attachment handling for enhanced productivity and collaboration. Elevate your email experience with easy access to important documents, fostering a smoother workflow for your business.
+Risecommerce_Email Attachments provides seamless file sharing within emails, streamlining communication with secure and efficient attachment handling for enhanced productivity and collaboration. Elevate your email experience with easy access to important documents, fostering a smoother workflow for your business.
 
-For more details about this extension, visit the [Risecommerce All Product Reviews page](https://risecommerce.com/store/magento2-all-product-reviews-as-testomonials.html).
+For more details about this extension, visit the [Magento 2 WhatsApp Chat Integration Extension](https://risecommerce.com/store/magento2-whatsapp-chat-integration.html).
 
 If you're looking to enhance your Magento store further, consider hiring a [dedicated Magento developer](https://risecommerce.com/hire-dedicated-magento-developer.html).
 
@@ -17,10 +17,10 @@ For support or inquiries, please visit our [contact page](https://risecommerce.c
  <a target="_blank" href="https://demo.risecommerce.com/admindemo"> <img width="190" height="70" src="https://risecommerce.com/media/wysiwyg/Backend-Demo.png"> </a>
 
 
-##Support: 
+## Support: 
 version - 2.3.*,2.4.*
 
-##How to install Extension
+## How to install Extension
 
 <h4>Method I:</h4>
 <p>1. Download the archive file.</p>
