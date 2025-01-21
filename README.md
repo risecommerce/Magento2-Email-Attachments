@@ -13,6 +13,7 @@ For more details about this extension, visit the [Magento 2 WhatsApp Chat Integr
 If you're looking to enhance your Magento store further, consider hiring a [dedicated Magento developer](https://risecommerce.com/hire-dedicated-magento-developer.html).
 
 For support or inquiries, please visit our [contact page](https://risecommerce.com/contact).
+
  <a target="_blank" href="https://demo.risecommerce.com/"> <img width="190" height="70" src="https://risecommerce.com/media/wysiwyg/frontend-demo.png"> </a>
  <a target="_blank" href="https://demo.risecommerce.com/admindemo"> <img width="190" height="70" src="https://risecommerce.com/media/wysiwyg/Backend-Demo.png"> </a>
 
