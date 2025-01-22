@@ -1,14 +1,14 @@
 <h3><a target="_blank" href="https://risecommerce.com/">Risecore Technologies Pvt. Ltd.</a></h3>
 <a target="_blank" href="https://risecommerce.com/"><img width="100%" height="208" src="https://risecommerce.com/media/wysiwyg/logowithtext.png"></a>
 
-# WhatsApp Chat Extension
+# Magento 2 Sales Email Invoice, shipments Attachment
 
 <a href="https://risecommerce.com/magento2-sales-email-invoice-shipments-attachment.html"><img width="190" height="70" src="https://risecommerce.com/media/wysiwyg/risedownload.png"></a>
 
 
 Risecommerce_Email Attachments provides seamless file sharing within emails, streamlining communication with secure and efficient attachment handling for enhanced productivity and collaboration. Elevate your email experience with easy access to important documents, fostering a smoother workflow for your business.
 
-For more details about this extension, visit the [Magento 2 WhatsApp Chat Integration Extension](https://risecommerce.com/store/magento2-whatsapp-chat-integration.html).
+For more details about this extension, visit the [Magento 2 Sales Email Invoice, shipments Attachment](https://risecommerce.com/store/magento2-sales-email-invoice-shipments-attachment.html).
 
 If you're looking to enhance your Magento store further, consider hiring a [dedicated Magento developer](https://risecommerce.com/hire-dedicated-magento-developer.html).
 
